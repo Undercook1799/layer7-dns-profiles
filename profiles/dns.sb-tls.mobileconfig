@@ -16,7 +16,7 @@
 					<string>185.222.222.222</string>
 					<string>45.11.45.11</string>
 				</array>
-				<key>ServerURL</key>
+				<key>ServerName</key>
 				<string>dot.sb</string>
 			</dict>
 			<key>PayloadDescription</key>
