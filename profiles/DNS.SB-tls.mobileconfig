@@ -6,12 +6,12 @@
 	<array>
 		<dict>
 			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerName</key>
-				<string>dot.sb</string>
-			</dict>
+			    <dict>
+				    <key>DNSProtocol</key>
+				        <string>TLS</string>
+				    <key>ServerName</key>
+				        <string>dot.sb</string>
+			    </dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS.SB Encrypted DNS over TLS</string>
 			<key>PayloadDisplayName</key>
