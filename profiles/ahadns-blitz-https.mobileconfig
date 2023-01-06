@@ -13,8 +13,6 @@
 				<array>
 					<string>::1</string>
 					<string>127.0.0.1</string>
-					<string>127.0.0.1</string>
-					<string>127.0.0.1</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://blitz.ahadns.com</string>
