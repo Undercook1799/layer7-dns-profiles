@@ -9,13 +9,8 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>::0</string>
-					<string>0.0.0.0</string>
-				</array>
 				<key>ServerURL</key>
-				<string>https://blitz.ahadns.com/</string>
+				<string>https://blitz.ahadns.com</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use Ahadns Encrypted DNS over HTTPS</string>
