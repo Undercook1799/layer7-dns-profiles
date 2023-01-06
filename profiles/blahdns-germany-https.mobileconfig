@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a01:4f8:c17:ec67::1</string>
+					<string>78.46.244.143</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://doh-de.blahdns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Blahdns's Germany Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Blahdns's Germany DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.cf74cced-94cf-4ada-8cc5-3070355e2dec</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>de2701b3-e1d7-44f8-a93e-6baa3c7ce493</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Blahdns's Germany DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Blahdns's Germany DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>0299ad7b-b838-47b5-9d95-a077dab28806</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>a0bea8b5-4c82-482b-a923-b23fe0a422b8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

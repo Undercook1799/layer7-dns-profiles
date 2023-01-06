@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a09::</string>
+					<string>2a011::</string>
+					<string>185.222.222.222</string>
+					<string>45.11.45.11</string>
+				</array>
+				<key>ServerURL</key>
+				<string>dot.sb</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DNS.SB's Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS.SB's DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.e76edc6e-4c32-4946-9979-3b89e61b0651</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>9564f880-2d01-42b2-81cc-07d75a8e9d44</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the DNS.SB DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>DNS.SB's DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>5cb58311-b137-4b36-8161-e01041c7952d</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4774d0a0-c61d-4f44-bee9-e19e27a2870a</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

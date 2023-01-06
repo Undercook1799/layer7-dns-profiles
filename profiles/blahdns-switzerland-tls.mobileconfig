@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a0e:dc0:6:23::2 </string>
+					<string>45.91.92.121 </string>
+				</array>
+				<key>ServerURL</key>
+				<string>dot-ch.blahdns.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Blahdns's Switzerland DoT DNS server/string>
+			<key>PayloadDisplayName</key>
+			<string>Blahdns's Switzerland DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.4e3b8bc3-8f14-41ae-80a9-dff21580b153</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>3e26670e-049d-46bf-b4f8-92ac09bcb675</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds Blahdns's Switzerland DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Blahdns's Switzerland DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>897c40f9-d19a-4a37-b470-a25b7356fe8b</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>66aa575e-684f-4cc3-a601-79363ef5bfbc</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

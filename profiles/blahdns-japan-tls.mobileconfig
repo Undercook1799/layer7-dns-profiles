@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+<<<<<<<< HEAD:blahdns-japan-tls.mobileconfig
+					<string>2406:ef80:4:1537::1</string>
+					<string>212.52.0.122</string>
+				</array>
+				<key>ServerURL</key>
+				<string> dot-jp.blahdns.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Blahdns's Japan Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Blahdns's Japan DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.981f0c1f-f51d-4f70-b380-6f13a49ba0f1</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>fb6cfb10-3c30-4b22-97ab-e1be056530bb</string>
+========
+					<string>IPv6 Address 1</string>
+					<string>IPv6 Address 2</string>
+					<string>IPv4 Address 1</string>
+					<string>IPv4 Address 2</string>
+				</array>
+				<key>ServerURL</key>
+				<string>!!!DNS over TLS Address!!!</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use !!!Adguard!!! Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>!!!Adguard!!! DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.!!!RANDOM-UUID-CODE-HERE!!!</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
+>>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoT-template.mobileconfig
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+<<<<<<<< HEAD:blahdns-japan-tls.mobileconfig
+	<string>Adds the Blahdns's Japan DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Blahdns's Japan DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>36556726-461a-402e-b60c-91af03b2f1d8</string>
+========
+	<string>Adds the !!!Adguard!!! DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>!!!Adguard!!! DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
+>>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoT-template.mobileconfig
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+<<<<<<<< HEAD:blahdns-japan-tls.mobileconfig
+	<string>8d8152dd-d32b-45c5-9625-e24b30113a06</string>
+========
+	<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
+>>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoT-template.mobileconfig
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

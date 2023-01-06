@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2406:ef80:2:5ee4::1</string>
+					<string>103.167.150.45</string>
+				</array>
+				<key>ServerURL</key>
+				<string>dot-sg.blahdns.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Blahdns's Singapore Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Blahdns's Singapore DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.7d524a78-a825-4226-8188-7176f69bb212</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>3a6f6bc5-1772-44c7-a63f-674d6672d5b7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Blahdns's Singapore DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Blahdns's Singapore DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>628cd157-c0e1-48a5-bf0f-0c3142c88307</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>f1b9a801-c0ae-470e-ad38-7fc33a90a9f2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
