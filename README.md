@@ -5,6 +5,7 @@
 | Adguard - Default     | Yah       | https://adguard-dns.io/en/public-dns.html   | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-default-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-default-tls.mobileconfig)           |
 | Adguard - Family      | Yah       | https://adguard-dns.io/en/public-dns.html   | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-family-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-family-tls.mobileconfig)             |
 | Adguard - Unfiltered  | Nah       | https://adguard-dns.io/en/public-dns.html   | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-nonfiltering-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/adguard-nonfiltering-tls.mobileconfig) |
+| Ahadns - Blitz        | Nah       | https://blitz-setup.ahadns.com/             | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/ahadns-blitz-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/ahadns-blitz-tls.mobileconfig)                 |
 | Blahdns - Germany     | Yah       | https://blahdns.com/                        | Nah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-germany-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-germany-tls.mobileconfig)           |
 | Blahdns - Japan       | Yah       | https://blahdns.com/                        | Nah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-japan-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-japan-tls.mobileconfig)               |
 | Blahdns - Switzerland | Yah       | https://blahdns.com/                        | Nah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-switzerland-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/blahdns-switzerland-tls.mobileconfig)   |
@@ -21,7 +22,7 @@ For **MacOS**
 
 ## Contributing a new profile
 
-Profiles are basically text files. Copy the template and change the things with !!!, IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
+Profiles are basically text files. Copy the template and change the things with @@@Adguard@@@ (recommend by via "replace all"), IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
 
 #### Notes:
 
