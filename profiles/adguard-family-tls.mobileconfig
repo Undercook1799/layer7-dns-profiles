@@ -16,7 +16,7 @@
 					<string>94.140.14.15</string>
 					<string>94.140.15.16</string>
 				</array>
-				<key>ServerURL</key>
+				<key>ServerName</key>
 				<string>family.adguard-dns.com</string>
 			</dict>
 			<key>PayloadDescription</key>
