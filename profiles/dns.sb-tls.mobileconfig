@@ -6,22 +6,29 @@
 	<array>
 		<dict>
 			<key>DNSSettings</key>
-			    <dict>
-				    <key>DNSProtocol</key>
-				        <string>TLS</string>
-				    <key>ServerName</key>
-				        <string>dot.sb</string>
-			    </dict>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a09:0000:0000:0000:0000:0000:0000:0000</string>
+					<string>2a11:0000:0000:0000:0000:0000:0000:0000</string>
+					<string>185.222.222.222</string>
+					<string>45.11.45.11</string>
+				</array>
+				<key>ServerName</key>
+				<string>dot.sb</string>
+			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS.SB Encrypted DNS over TLS</string>
 			<key>PayloadDisplayName</key>
 			<string>DNS.SB DNS over TLS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.f418a438-0f42-4fe1-9fc0-366e2c01e1d1</string>
+			<string>com.apple.dnsSettings.managed.6bb093d4-1d3d-4166-84ac-764d32413e02</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>1e77690d-1983-4d07-930f-9f86876019ad</string>
+			<string>6bb3fff3-fa32-4d34-b756-f6db2e7a53f9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -33,13 +40,13 @@
 	<key>PayloadDisplayName</key>
 	<string>DNS.SB DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>d435f05b-a2af-44f9-bfd0-786433921513</string>
+	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a0a08104-0530-4938-b86d-f3c5937f371f/string>
+	<string>8bb7d7f9-9dfe-4bc4-923a-e27dc2edf261</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
