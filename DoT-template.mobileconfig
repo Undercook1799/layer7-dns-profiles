@@ -36,11 +36,11 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
 	<string>@@@@Adguard@@@@ DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
