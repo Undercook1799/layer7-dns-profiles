@@ -14,7 +14,7 @@
 					<string>2406:ef80:2:5ee4::1</string>
 					<string>103.167.150.45</string>
 				</array>
-				<key>ServerURL</key>
+				<key>ServerName</key>
 				<string>dot-sg.blahdns.com</string>
 			</dict>
 			<key>PayloadDescription</key>
