@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2606:1a40::2</string>
+					<string>2606:1a40:1::2</string>
+					<string>76.76.2.2</string>
+					<string>76.76.10.2</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://freedns.controld.com/p2</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Controld's Ads & Tracking blocker Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Controld's Ads & Tracking blocker DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.2eeb2f83-fbe2-4e51-b45d-ed8f4459af0c</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>d1e6396d-a1e7-4853-a743-7059f41a95c7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds Controld's Ads & Tracking blocker DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Controld's Ads & Tracking blocker DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.undercook1799.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>7187a3da-5a16-4809-a5f4-955025dcd020</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
