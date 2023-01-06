@@ -11,10 +11,10 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
+					<string>2a09:0000:0000:0000:0000:0000:0000:0000</string>
+					<string>2a11:0000:0000:0000:0000:0000:0000:0000</string>
+					<string>185.222.222.222</string>
+					<string>45.11.45.11</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://doh.dns.sb/dns-query</string>
