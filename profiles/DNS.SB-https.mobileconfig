@@ -8,27 +8,20 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2a09::</string>
-					<string>2a011::</string>
-					<string>185.222.222.222</string>
-					<string>45.11.45.11</string>
-				</array>
-				<key>ServerName</key>
-				<string>dot.sb</string>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>@@@@DNS over HTTPS Address@@@@</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use DNS.SB's Encrypted DNS over TLS</string>
+			<string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>DNS.SB's DNS over TLS</string>
+			<string>@@@@Adguard@@@@ DNS over HTTPS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.e76edc6e-4c32-4946-9979-3b89e61b0651</string>
+			<string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>9564f880-2d01-42b2-81cc-07d75a8e9d44</string>
+			<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,17 +29,17 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the DNS.SB DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds the @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>DNS.SB's DNS over TLS</string>
+	<string>@@@@Adguard@@@@ DNS over HTTPS</string>
 	<key>PayloadIdentifier</key>
-	<string>49236b59-21b1-4edc-9a80-49c6981cf8c4</string>
+	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>4774d0a0-c61d-4f44-bee9-e19e27a2870a</string>
+	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

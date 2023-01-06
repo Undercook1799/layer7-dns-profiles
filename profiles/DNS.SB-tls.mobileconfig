@@ -9,26 +9,19 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
-				</array>
 				<key>ServerName</key>
-				<string>@@@@DNS over TLS Address@@@@</string>
+				<string>dot.sb</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over TLS</string>
+			<string>Configures device to use DNS.SB Encrypted DNS over TLS</string>
 			<key>PayloadDisplayName</key>
-			<string>@@@@Adguard@@@@ DNS over TLS</string>
+			<string>DNS.SB DNS over TLS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>com.apple.dnsSettings.managed.f418a438-0f42-4fe1-9fc0-366e2c01e1d1</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>1e77690d-1983-4d07-930f-9f86876019ad</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,17 +29,17 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds the DNS.SB DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>@@@@Adguard@@@@ DNS over TLS</string>
+	<string>DNS.SB DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>a0a08104-0530-4938-b86d-f3c5937f371f/string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
