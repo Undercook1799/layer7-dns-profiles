@@ -16,7 +16,7 @@
 					<string>IPv4 Address 1</string>
 					<string>IPv4 Address 2</string>
 				</array>
-				<key>ServerURL</key>
+				<key>ServerName</key>
 				<string>!!!DNS over TLS Address!!!</string>
 			</dict>
 			<key>PayloadDescription</key>
