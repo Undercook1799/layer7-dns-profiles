@@ -8,27 +8,25 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>TLS</string>
+				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
+					<string>2a07:e340::2</string>
+					<string>194.242.2.2</string>
 				</array>
-				<key>ServerName</key>
-				<string>@@@@DNS over TLS Authentication Link@@@@</string>
+				<key>ServerURL</key>
+				<string>https://doh.mullvad.net/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over TLS</string>
+			<string>Configures device to use Mullvad's Unfiltered Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>@@@@Adguard@@@@ DNS over TLS</string>
+			<string>Mullvad's Unfiltered DNS over HTTPS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>com.apple.dnsSettings.managed.c9538f19-5596-4374-ab93-68a555d5373f</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>ffb5d25a-01b3-4a60-9874-36adbf1d39ae</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,9 +34,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds Mullvad's Unfiltered DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>@@@@Adguard@@@@ DNS over TLS</string>
+	<string>Mullvad's Unfiltered DNS over HTTPS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -46,7 +44,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>0e6717ba-aa40-40ad-9979-bd296280e0a5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

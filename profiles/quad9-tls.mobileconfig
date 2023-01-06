@@ -11,24 +11,24 @@
 				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
+					<string>2620:fe::fe</string>
+					<string>2620:fe::9</string>
+					<string>9.9.9.9</string>
+					<string>149.112.112.112</string>
 				</array>
 				<key>ServerName</key>
-				<string>@@@@DNS over TLS Authentication Link@@@@</string>
+				<string>dns.quad9.net</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over TLS</string>
+			<string>Configures device to use Quad9 Encrypted DNS over TLS</string>
 			<key>PayloadDisplayName</key>
-			<string>@@@@Adguard@@@@ DNS over TLS</string>
+			<string>Quad9 DNS over TLS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>com.apple.dnsSettings.managed.51f475a8-39cc-479c-81a2-4e81241a14de</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>9eb27ea9-132a-4e7b-9004-788052bf0c0b</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,9 +36,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds Quad9 DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>@@@@Adguard@@@@ DNS over TLS</string>
+	<string>Quad9 DNS over TLS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -46,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>a0d115f7-6d3f-4302-87bc-3de558ef841b/string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

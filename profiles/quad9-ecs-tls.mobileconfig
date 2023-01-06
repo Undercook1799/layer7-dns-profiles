@@ -11,24 +11,24 @@
 				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
+					<string>2620:fe::11</string>
+					<string>2620:fe::fe:11</string>
+					<string>9.9.9.11</string>
+					<string>149.112.112.11</string>
 				</array>
 				<key>ServerName</key>
-				<string>@@@@DNS over TLS Authentication Link@@@@</string>
+				<string>dns11.quad9.net</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over TLS</string>
+			<string>Configures device to use Quad9 with ECS Encrypted DNS over TLS</string>
 			<key>PayloadDisplayName</key>
-			<string>@@@@Adguard@@@@ DNS over TLS</string>
+			<string>Quad9 with ECS DNS over TLS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>com.apple.dnsSettings.managed.c987ecc4-be2c-495a-a470-2b0da735da6d</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+			<string>3ff35d45-2d11-47bb-b3df-993d001db058</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,9 +36,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds Quad9 with ECS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>@@@@Adguard@@@@ DNS over TLS</string>
+	<string>Quad9 with ECS DNS over TLS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -46,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+	<string>35a1c647-e196-4843-a292-3af42fc5ce69</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

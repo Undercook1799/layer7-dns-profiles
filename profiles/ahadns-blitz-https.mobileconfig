@@ -9,6 +9,7 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
+				<key>ServerAddresses</key>
 				<key>ServerURL</key>
 				<string>https://blitz.ahadns.com</string>
 			</dict>
