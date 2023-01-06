@@ -40,7 +40,7 @@
 	<key>PayloadDisplayName</key>
 	<string>DNS.SB's DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>5cb58311-b137-4b36-8161-e01041c7952d</string>
+	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
