@@ -15,7 +15,7 @@
 					<string>2406:ef80:4:1537::1</string>
 					<string>212.52.0.122</string>
 				</array>
-				<key>ServerURL</key>
+				<key>ServerName</key>
 				<string> dot-jp.blahdns.com</string>
 			</dict>
 			<key>PayloadDescription</key>
