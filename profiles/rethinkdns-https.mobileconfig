@@ -12,9 +12,6 @@
 				<key>ServerAddresses</key>
 				<array>
 					<string></string>
-					<string></string>
-					<string></string>
-					<string></string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://sky.rethinkdns.com/</string>
