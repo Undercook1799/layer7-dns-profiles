@@ -9,7 +9,6 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>TLS</string>
-				<key>ServerAddresses</key>
 				<key>ServerName</key>
 				<string>max.rethinkdns.com</string>
 			</dict>
