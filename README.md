@@ -29,18 +29,17 @@
 
 ## Installation Guide
 
-For **iOS**
-Seek a DNS provider from the list and click either HTTPS or TLS using Safari and click Install when given a prompt that states "XXXX." The profile will now install. Go to Settings and click on "Profile Downloaded." Follow the instructions. Your DNS configuration will now be changed to the one that you've selected. To manage your DNS configuration, go to Settings and click General, and click VPN, DNS, and Device Management. Click DNS to change your DNS providers.
+For **iOS**, seek a DNS provider from the list and click either HTTPS or TLS using Safari and click Install when given a prompt that states "XXXX." The profile will now install. Go to Settings and click on "Profile Downloaded." Follow the instructions. Your DNS configuration will now be changed to the one that you've selected. To manage your DNS configuration, go to Settings and click General, and click VPN, DNS, and Device Management. Click DNS to change your DNS providers.
 
 To remove DNS profiles from your device, go to Settings and click General, VPN, DNS, and Device Management, and click on the profile that you've like to delete and click "Remove Profile."
 
-For **MacOS Big Sur & Monterey**
+For **MacOS Big Sur & Monterey**,
 
-For **MacOS Ventura**
+For **MacOS Ventura**,
 
-## Problems with DNS Profile?
+## Problems with DNS Profile?,
 
-Yeah. There may be problems with the DNS configuration - from the DNS resolver itself or a user error. Put in a issue and I or others will take a look.
+Yeah. There may be problems with the DNS configuration or the DNS resolver itself or a user error. Open up an issue request and I or others will take a look.
 
 - There may be an installation problem with Ahadns & RethinkDNS because I can't find the IP address for their servers.
 
