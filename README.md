@@ -45,7 +45,7 @@ Yeah. There may be problems with the DNS configuration or the DNS resolver itsel
 
 ## Contributing a new profile
 
-Profiles are basically text files. Copy the template and change the things with @@@Adguard@@@ (recommend by via "replace all"), IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
+Profiles are basically text files. Copy the template and change the things with @@@@Adguard@@@@ (recommend by via "replace all"), IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
 
 Check out Apple's documentation for DNS: https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
 
