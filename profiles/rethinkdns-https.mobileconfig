@@ -12,20 +12,23 @@
 				<key>ServerAddresses</key>
 				<array>
 					<string></string>
+					<string></string>
+					<string></string>
+					<string></string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://sky.rethinkdns.com/</string>
+				<string>https://sky.rethinkdns.com</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use RethinkDNS's Encrypted DNS over HTTPS</string>
+			<string>Configures device to use RethinkDNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>RethinkDNS's DNS over HTTPS</string>
+			<string>RethinkDNS DNS over HTTPS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.c67692e2-6206-4195-9ccc-8335af06ff64</string>
+			<string>com.apple.dnsSettings.managed.bddce253-327b-45f8-bd41-4f1210561b76</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>a45cada8-dc6c-45e9-82f1-24da61e4c8b4</string>
+			<string>5bf7e300-be73-4c42-a5fc-3f3c47327626</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -33,9 +36,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds RethinkDNS's DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+	<string>Adds RethinkDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
-	<string>RethinkDNS's DNS over HTTPS</string>
+	<string>RethinkDNS DNS over HTTPS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -43,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>f00d0366-f779-47db-9f7f-27e762d29222</string>
+	<string>f33bb446-8283-41de-9da3-2b9a632732b1</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
