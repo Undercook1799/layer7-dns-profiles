@@ -37,9 +37,9 @@ For **MacOS Big Sur & Monterey**,
 
 For **MacOS Ventura**,
 
-## Problems with DNS Profile?,
+## Problems with DNS Profile?
 
-Yeah. There may be problems with the DNS configuration or the DNS resolver itself or a user error. Open up an issue request and I or others will take a look.
+Yeaaaaah. There may be problems with the DNS configuration or the DNS resolver itself or a user error. Open up an issue request and I or others will take a look.
 
 - There may be an installation problem with Ahadns & RethinkDNS because I can't find the IP address for their servers.
 
