@@ -38,6 +38,12 @@ For **MacOS Big Sur & Monterey**
 
 For **MacOS Ventura**
 
+## Problems with DNS Profile?
+
+Yeah. There may be problems with the DNS configuration - from the DNS resolver itself or a user error. Put in a issue and I or others will take a look.
+
+- There may be an installation problem with Ahadns & RethinkDNS because I can't find the IP address for their servers.
+
 ## Contributing a new profile
 
 Profiles are basically text files. Copy the template and change the things with @@@Adguard@@@ (recommend by via "replace all"), IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
