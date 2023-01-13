@@ -29,13 +29,13 @@
 
 ## Installation Guide
 
-For **iOS**, seek a DNS provider from the list and click either HTTPS or TLS using Safari and click Install when given a prompt that states "XXXX." The profile will now install. Go to Settings and click on "Profile Downloaded." Follow the instructions. Your DNS configuration will now be changed to the one that you've selected. To manage your DNS configuration, go to Settings and click General, and click VPN, DNS, and Device Management. Click DNS to change your DNS providers.
+For **iOS**, seek a DNS provider from the list and click either HTTPS or TLS using Safari and click Install when given a prompt that states "XXXX." The profile will now install. Go to Settings and click on "Profile Downloaded." Follow the instructions. Your DNS configuration will now be changed to the one that you've installed. To manage your DNS configuration, go to Settings and click General, and click VPN, DNS, and Device Management. Click DNS to change your DNS providers.
 
 To remove DNS profiles from your device, go to Settings and click General, VPN, DNS, and Device Management, and click on the profile that you've like to delete and click "Remove Profile."
 
-For **MacOS Big Sur & Monterey**,
+For **macOS Big Sur & Monterey**,
 
-For **MacOS Ventura**,
+For **macOS Ventura**, double click on the downloaded file and approve instalation in System settings => Privacy & Security => Profiles. On iOS, go to System Settings => General => VPN, DNS & Device Management, select downloaded profile and tap the “Install” button.
 
 ## Problems with DNS Profile?
 
