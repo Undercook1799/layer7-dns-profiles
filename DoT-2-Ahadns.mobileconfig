@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!---Code stolen from Ahadns to test // I didn't write this-->
 <plist version="1.0">
     <dict>
         <key>PayloadDisplayName</key>
@@ -34,9 +35,9 @@
                     <key>DNSSettings</key>
                         <dict>
                             <key>DNSProtocol</key>
-                                <string>HTTPS</string>
-                            <key>ServerURL</key>
-                                <string>@@@@DoH-URL@@@@</string>
+                                <string>TLS</string>
+                            <key>ServerName</key>
+                                <string>@@@@DoT-Authentication-Link@@@@</string>
                         </dict>
                     <key>PayloadType</key>
                         <string>com.apple.dnsSettings.managed</string>
