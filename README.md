@@ -35,7 +35,7 @@ To remove DNS profiles from your device, go to Settings => click General => VPN,
 
 For **macOS Big Sur & Monterey**, double click on the downloaded file and approve instalation in System Preferences => Security & Privacy => Profiles
 
-For **macOS Ventura**, double click on the downloaded file and approve instalation in System settings => Privacy & Security => Profiles. On iOS, go to System Settings => General => VPN, DNS & Device Management, select downloaded profile and tap the “Install” button.
+For **macOS Ventura**, double click on the downloaded file and approve instalation in System settings => Privacy & Security => Profiles.
 
 ## Problems with DNS Profile?
 
