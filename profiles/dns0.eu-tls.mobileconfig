@@ -24,6 +24,8 @@
                 <string>d1229ec9-1772-4b9f-8428-3449f9066ddf</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
+                <key>ProhibitDisablement</key>
+			    <false/>
             </dict>
         </array>
         <key>PayloadDescription</key>
