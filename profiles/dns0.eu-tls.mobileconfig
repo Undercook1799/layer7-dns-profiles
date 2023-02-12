@@ -17,15 +17,13 @@
                 <key>PayloadDisplayName</key>
                 <string>dns0.eu DNS over TLS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.421a8e05-6deb-4ca2-a795-4da9986ef88c</string>
+                <string>com.apple.dnsSettings.managed.d17b372f-c2e6-430a-989d-c2e7becaf771</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
                 <string>d1229ec9-1772-4b9f-8428-3449f9066ddf</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
-                <key>ProhibitDisablement</key>
-			    <false/>
             </dict>
         </array>
         <key>PayloadDescription</key>
@@ -33,13 +31,13 @@
         <key>PayloadDisplayName</key>
         <string>dns0.eu DNS over TLS</string>
         <key>PayloadIdentifier</key>
-		<string>1125950e-a2c1-44b6-9e69-5f31260de441</string>
+		<string>d17b372f-c2e6-430a-989d-c2e7becaf771</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadIdentifier</key>
-		<string>f6fefcc7-7233-4d8c-9072-ee47a80f3e16</string>
+		<string>282cbb74-883a-45f0-b628-f15530695a4a</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>
