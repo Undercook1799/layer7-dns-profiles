@@ -32,12 +32,14 @@
         <string>@@@@Adguard@@@@ DNS over TLS</string>
         <key>PayloadIdentifier</key>
         <string>com.undercook1799.apple-dns</string>
+        <key>PayloadIdentifier</key>
+		<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
-        <key>PayloadUUID</key>
-        <string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+        <key>PayloadIdentifier</key>
+		<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

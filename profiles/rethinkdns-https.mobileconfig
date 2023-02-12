@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string></string>
-					<string></string>
-					<string></string>
-					<string></string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://sky.rethinkdns.com</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use RethinkDNS Encrypted DNS over HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>RethinkDNS DNS over HTTPS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.bddce253-327b-45f8-bd41-4f1210561b76</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>5bf7e300-be73-4c42-a5fc-3f3c47327626</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds RethinkDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>RethinkDNS DNS over HTTPS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>f33bb446-8283-41de-9da3-2b9a632732b1</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://sky.rethinkdns.com/</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>@@@@Adguard@@@@ DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.5c75997f-f8c2-4b9f-9a90-0110b58512a2</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>fbdf8951-7ea6-4ea3-968a-7c1114d800e0</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>@@@@Adguard@@@@ DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.undercook1799.apple-dns</string>
+		<key>PayloadIdentifier</key>
+		<string>0c282b2e-21d2-41f2-9ec3-a1c7559f408d</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>8edad875-e811-4c9b-ac98-ec52f84e112d</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

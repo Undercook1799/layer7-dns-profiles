@@ -10,36 +10,36 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>@@@@DOH-ADDRESS@@@@@</string>
+                    <string>https://zero.dns0.eu</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use @@@@Adguard@@@@ Encrypted DNS over HTTPS</string>
+                <string>Configures device to use dns0.eu Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>@@@@Adguard@@@@ DNS over HTTPS</string>
+                <string>dns0.eu DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+                <string>com.apple.dnsSettings.managed.d2bebe56-655b-4b5f-84f1-fbac2c26ffef</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+                <string>3563d90e-d663-48c4-b124-f564d720dbd7</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds @@@@Adguard@@@@ DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds dns0.eu DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>@@@@Adguard@@@@ DNS over HTTPS</string>
+        <string>dns0.eu DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
         <string>com.undercook1799.apple-dns</string>
         <key>PayloadIdentifier</key>
-		<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+		<string>e50384fc-da4b-419c-a8eb-781eddce4dd1</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
+        <string>b79a5200-91f1-49f8-bbe2-e6c100420ebe</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string></string>
-					<string></string>
-					<string></string>
-					<string></string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://blitz.ahadns.com/1:1</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Ahadns's Blitz Encrypted DNS over HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>Ahadns's Blitz DNS over HTTPS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.43ed4551-1052-4743-a813-510ee8da9812</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>b8543666-2cac-4c94-8c51-c36fe3665cd9</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds Ahadns's Blitz DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Ahadns's Blitz DNS over HTTPS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>88520957-34a9-4a58-9a3f-7965f2a1fd12</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://blitz.ahadns.com/1:1</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Ahadns Blitz Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Ahadns Blitz DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.a8e2ff22-ca91-44c5-8f40-f40c5db95142</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>ddc6d719-aeda-4e8c-be32-8cefefeae291</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Ahadns Blitz DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Ahadns Blitz DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.undercook1799.apple-dns</string>
+        <key>PayloadIdentifier</key>
+		<string>5b7ee9af-0438-472c-9637-8e67202f5d42</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>39884fc9-8a95-4ed8-b28c-8518dbd469e5</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>
