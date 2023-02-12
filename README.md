@@ -57,7 +57,7 @@ Profiles are basically text files. Copy the template and change the things with 
 
 Check out Apple's documentation for DNS: https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
 
-Table format is | DNSNAME | Filtered? | source link | Anycast? | [HTTPS](httpslink), [TLS](tlslink) |
+Table format is | DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Nah) | [HTTPS](httpslink), [TLS](tlslink) |
 
 - source link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE.mobileconfig
 
