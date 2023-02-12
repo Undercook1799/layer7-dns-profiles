@@ -31,14 +31,12 @@
         <key>PayloadDisplayName</key>
         <string>dns0.eu DNS over TLS</string>
         <key>PayloadIdentifier</key>
-        <string>com.undercook1799.apple-dns</string>
-        <key>PayloadIdentifier</key>
 		<string>6c69ca79-08d6-41b4-8e60-793efe5a3647</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
-        <key>PayloadIdentifier</key>
+        <key>PayloadUUID</key>
 		<string>92f1a56d-5225-47ff-9222-998d15097501</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
