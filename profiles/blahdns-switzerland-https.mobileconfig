@@ -1,84 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-<<<<<<<< HEAD:blahdns-switzerland-https.mobileconfig
-					<string>2a0e:dc0:6:23::2 </string>
-					<string>45.91.92.121 </string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://doh-ch.blahdns.com/dns-query</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Blahdns's Switzerland DoH Server</string>
-			<key>PayloadDisplayName</key>
-			<string>Blahdns's Switzerland DNS over HTTPS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.365bcaf9-ef60-42df-aec6-d040d1c50d44</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>8e11c18a-e5ad-43b7-8faf-d77ed7e661d9</string>
-========
-					<string>IPv6 Address 1</string>
-					<string>IPv6 Address 2</string>
-					<string>IPv4 Address 1</string>
-					<string>IPv4 Address 2</string>
-				</array>
-				<key>ServerURL</key>
-				<string>!!!DNS over HTTPS Address!!!</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use !!!Adguard!!! Encrypted DNS over HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>!!!Adguard!!! DNS over HTTPS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.!!!RANDOM-UUID-CODE-HERE!!!</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
->>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoH-template.mobileconfig
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-<<<<<<<< HEAD:blahdns-switzerland-https.mobileconfig
-	<string>Adds Blahdns's Switzerland DoH DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Blahdns's Switzerland DNS over HTTPS</string>
-	<key>PayloadIdentifier</key>
-	<string>ae041d31-49f0-4940-9ac7-e9dd83bed5df</string>
-========
-	<string>Adds the !!!Adguard!!! DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>!!!Adguard!!! DNS over HTTPS</string>
-	<key>PayloadIdentifier</key>
-	<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
->>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoH-template.mobileconfig
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-<<<<<<<< HEAD:blahdns-switzerland-https.mobileconfig
-	<string>7edf1d50-a593-417c-b118-6d45a2fee597</string>
-========
-	<string>!!!RANDOM-UUID-CODE-HERE!!!</string>
->>>>>>>> e7404e9832cef22506a087b88161ccb2565e0ffc:DoH-template.mobileconfig
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://doh-ch.blahdns.com/dns-query</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Blahdns' Switzerland Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Blahdns' Switzerland DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.8a0ec513-8414-4cc2-8a06-89abec37539d</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>a0e19072-3ecc-4aba-ae67-52fe004ac64d</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Blahdns' Switzerland DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Blahdns' Switzerland DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+		<string>25cd6713-ad77-4ab4-b52c-c683c20a9ca9</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>c978e86c-1b3e-41ab-a818-dd5e4cc05227</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

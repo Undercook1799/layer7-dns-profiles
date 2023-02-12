@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2a07:e340::3</string>
-					<string>194.242.2.3</string>
-				</array>
-				<key>ServerName</key>
-				<string>adblock.doh.mullvad.net</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Mullvad's Adblock Encrypted DNS over TLS</string>
-			<key>PayloadDisplayName</key>
-			<string>Mullvad's Adblock DNS over TLS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.84b78664-5ef8-498c-9d2c-635d3609e628</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>c5a945cf-2a0d-4f1d-aa79-cc7bfe9c191b</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds Mullvad's Adblock DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Mullvad's Adblock DNS over TLS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>5a3e89a8-e82b-4efa-ad09-b20e32eb70a2</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>adblock.doh.mullvad.net</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Mullvad - Adblock Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Mullvad - Adblock DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.929bc6be-f198-447a-bc31-17e1a525424b</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>397796d3-4efd-4b2d-9378-7324e4951444</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Mullvad - Adblock DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Mullvad - Adblock DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>18b68f6c-669b-45f0-8b0b-1e3ddc8a8176</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>c8e5cddc-c6c8-43c0-9d43-afe3ec04ff61</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

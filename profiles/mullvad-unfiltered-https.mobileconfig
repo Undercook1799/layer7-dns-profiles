@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2a07:e340::2</string>
-					<string>194.242.2.2</string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://doh.mullvad.net/dns-query</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Mullvad's Unfiltered Encrypted DNS over HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>Mullvad's Unfiltered DNS over HTTPS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.c9538f19-5596-4374-ab93-68a555d5373f</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>ffb5d25a-01b3-4a60-9874-36adbf1d39ae</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds Mullvad's Unfiltered DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Mullvad's Unfiltered DNS over HTTPS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>0e6717ba-aa40-40ad-9979-bd296280e0a5</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://doh.mullvad.net/dns-query</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Mullvad - Unfiltered Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Mullvad - Unfiltered DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.0c0eee04-dd03-48d6-8211-2c596595be10</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>5beb4c86-1a33-4bb7-b659-3ca7b2c9a5fd</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Mullvad - Unfiltered DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Mullvad - Unfiltered DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+		<string>b63ff01d-24f5-4ae9-89d8-f2b6b642a732</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>b22a5ffc-6d2c-4a3b-938d-c75bfe24f816</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

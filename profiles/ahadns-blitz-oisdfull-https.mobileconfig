@@ -13,33 +13,31 @@
                     <string>https://blitz.ahadns.com/1:1</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Ahadns Blitz Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Ahadns - Blitz w/ OISD Full Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Ahadns Blitz DNS over HTTPS</string>
+                <string>Ahadns - Blitz w/ OISD Full DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.a8e2ff22-ca91-44c5-8f40-f40c5db95142</string>
+                <string>com.apple.dnsSettings.managed.f08238f5-b1d4-4ddf-bbee-fd86fdfeb93a</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>ddc6d719-aeda-4e8c-be32-8cefefeae291</string>
+                <string>e700b4f9-4da6-4028-ba5b-1452b0f53f27</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Ahadns Blitz DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Ahadns - Blitz w/ OISD Full DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Ahadns Blitz DNS over HTTPS</string>
+        <string>Ahadns - Blitz w/ OISD Full DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-        <string>com.undercook1799.apple-dns</string>
-        <key>PayloadIdentifier</key>
-		<string>5b7ee9af-0438-472c-9637-8e67202f5d42</string>
+		<string>b6234da1-7843-4f8d-a07f-f2c8be8de26b</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>39884fc9-8a95-4ed8-b28c-8518dbd469e5</string>
+        <string>babf898d-9e99-40da-8071-3577f81d9cc9</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

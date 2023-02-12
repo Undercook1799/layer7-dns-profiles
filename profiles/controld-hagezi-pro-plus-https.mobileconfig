@@ -10,34 +10,34 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://cloudflare-dns.com/dns-query</string>
+                    <string>https://freedns.controld.com/x-hagezi-proplus</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Cloudflare's 1.1.1.1 Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Controld - Hagezi's Pro Plus Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+                <string>Controld - Hagezi's Pro Plus DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.b4660f97-077d-4f59-8ec1-812749545a9c</string>
+                <string>com.apple.dnsSettings.managed.33e79429-8359-4644-93ac-626ef5d01a0a</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>98833de9-783d-4949-86c8-ba65df656b2c</string>
+                <string>b30e0f48-abc6-42eb-ad4f-57a787a72c72</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Cloudflare's 1.1.1.1 DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Controld - Hagezi's Pro Plus DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+        <string>Controld - Hagezi's Pro Plus DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-		<string>9fba221b-8730-4c55-86f1-9b06bbf112f9</string>
+		<string>651b7a04-94e9-4ea8-b568-a6731e530df0</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>2a653b96-8c62-4b04-ae0c-43dff7114448</string>
+        <string>0c769ba1-cf3a-4acc-a0fe-934a548c6cf6</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

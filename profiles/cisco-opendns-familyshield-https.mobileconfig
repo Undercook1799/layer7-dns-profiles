@@ -10,34 +10,34 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://cloudflare-dns.com/dns-query</string>
+                    <string>https://familyshield.opendns.com/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Cloudflare's 1.1.1.1 Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Cisco's OpenDNS - FamilyShield Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+                <string>Cisco's OpenDNS - FamilyShield DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.b4660f97-077d-4f59-8ec1-812749545a9c</string>
+                <string>com.apple.dnsSettings.managed.68efe22b-c874-42a2-abd9-7edc8eda8f3c</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>98833de9-783d-4949-86c8-ba65df656b2c</string>
+                <string>443df5f8-17ba-4481-9f7d-dc9b8723b6a5</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Cloudflare's 1.1.1.1 DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Cisco's OpenDNS - FamilyShield DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+        <string>Cisco's OpenDNS - FamilyShield DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-		<string>9fba221b-8730-4c55-86f1-9b06bbf112f9</string>
+		<string>6c3731b3-9862-4136-9c80-90f7286d1fe4</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>2a653b96-8c62-4b04-ae0c-43dff7114448</string>
+        <string>abf1d5eb-c277-4911-b1cd-2b197f936d82</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

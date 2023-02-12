@@ -8,36 +8,36 @@
                 <key>DNSSettings</key>
                 <dict>
                     <key>DNSProtocol</key>
-                    <string>HTTPS</string>
-                    <key>ServerURL</key>
-                    <string>https://cloudflare-dns.com/dns-query</string>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>x-hagezi-normal.freedns.controld.com</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Cloudflare's 1.1.1.1 Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Controld - Hagezi's Normal Encrypted DNS over TLS</string>
                 <key>PayloadDisplayName</key>
-                <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+                <string>Controld - Hagezi's Normal DNS over TLS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.b4660f97-077d-4f59-8ec1-812749545a9c</string>
+                <string>com.apple.dnsSettings.managed.2d15a809-7a05-4f83-bf68-d8203ae58b53</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>98833de9-783d-4949-86c8-ba65df656b2c</string>
+                <string>c560af72-7c9e-4349-85f1-c4cbf0e75f8a</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Cloudflare's 1.1.1.1 DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Controld - Hagezi's Normal DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+        <string>Controld - Hagezi's Normal DNS over TLS</string>
         <key>PayloadIdentifier</key>
-		<string>9fba221b-8730-4c55-86f1-9b06bbf112f9</string>
+		<string>06def4de-9672-4afb-9042-9a26da90643c</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>2a653b96-8c62-4b04-ae0c-43dff7114448</string>
+		<string>daac78a5-005b-4971-ab9b-f9bba2f8374e</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

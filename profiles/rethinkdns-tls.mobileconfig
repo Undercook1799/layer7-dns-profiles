@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string></string>
-					<string></string>
-					<string></string>
-					<string></string>
-				</array>
-				<key>ServerName</key>
-				<string>max.rethinkdns.com</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use RethinkDNS Encrypted DNS over TLS</string>
-			<key>PayloadDisplayName</key>
-			<string>RethinkDNS DNS over TLS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.e96ad159-9841-4ed4-998f-f11be29f4b32</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>ddeb22e4-67b1-4060-882f-9f1120d01858</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds RethinkDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>RethinkDNS DNS over TLS</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>653d3798-e865-4dd9-ae8f-7188e1d0d879</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>max.rethinkdns.com</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use RethinkDNS Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>RethinkDNS DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.E6782E85-A77C-4003-895E-EB4816D9D007</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>F922FA9B-4322-4F6B-B6A8-960CE31CEDB3</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds RethinkDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>RethinkDNS DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>69051E95-54ED-4A43-9E19-1CA63DCA4451</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>74BB3077-2BD6-4C0F-8162-846A674C3FA0</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

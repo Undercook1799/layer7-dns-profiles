@@ -10,34 +10,34 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://cloudflare-dns.com/dns-query</string>
+                    <string>https://dns.nextdns.io</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Cloudflare's 1.1.1.1 Encrypted DNS over HTTPS</string>
+                <string>Configures device to use NextDNS Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+                <string>NextDNS DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.b4660f97-077d-4f59-8ec1-812749545a9c</string>
+                <string>com.apple.dnsSettings.managed.064c3e6b-899e-43fb-953d-138869209e86</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>98833de9-783d-4949-86c8-ba65df656b2c</string>
+                <string>aebc9ad3-f4ef-44eb-859c-e9172813d0dd</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Cloudflare's 1.1.1.1 DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds NextDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Cloudflare's 1.1.1.1 DNS over HTTPS</string>
+        <string>NextDNS DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-		<string>9fba221b-8730-4c55-86f1-9b06bbf112f9</string>
+		<string>d975cfa2-3eba-4287-9f84-eb616ba156e6</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>2a653b96-8c62-4b04-ae0c-43dff7114448</string>
+        <string>97c8e879-2aa1-4902-9871-1beba0dce499</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

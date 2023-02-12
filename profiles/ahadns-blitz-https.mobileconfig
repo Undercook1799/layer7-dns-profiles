@@ -10,36 +10,34 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://blitz.ahadns.com/</string>
+                    <string>https://blitz.ahadns.com</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Ahadns Blitz Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Ahadns - Blitz Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Ahadns Blitz DNS over HTTPS</string>
+                <string>Ahadns - Blitz DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.4835e1f7-77c0-4c41-985f-1f3a41c52281</string>
+                <string>com.apple.dnsSettings.managed.882ab304-c17f-4c13-b9ae-eecbeb782563</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>f06d6155-42cb-423e-b208-7097a08e9b82</string>
+                <string>5f8e1ad4-c2de-4b21-a604-8ebf72205fcf</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Ahadns Blitz DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Ahadns - Blitz DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Ahadns Blitz DNS over HTTPS</string>
+        <string>Ahadns - Blitz DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-        <string>com.undercook1799.apple-dns</string>
-        <key>PayloadIdentifier</key>
-		<string>5da219f5-1ccc-40e0-bd61-95e148901348</string>
+		<string>313cfae8-7692-4fe7-ae62-84e354418337</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadUUID</key>
-        <string>c1e50019-6acf-4a26-a5a4-b3fdc94f4cbc</string>
+        <string>21c5c844-8060-48cd-93e7-e68ac2765a53</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
     </dict>

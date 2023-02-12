@@ -1,53 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2606:1a40::5</string>
-					<string>2606:1a40:1::5</string>
-					<string>76.76.2.5</string>
-					<string>76.76.10.5</string>
-				</array>
-				<key>ServerName</key>
-				<string>uncensored.freedns.controld.com</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Controld's Uncensored Encrypted DNS over TLS</string>
-			<key>PayloadDisplayName</key>
-			<string>Controld's Uncensored DNS over TLS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.82bd52b4-6742-40b7-92dd-480dd0e68c98</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>4859cc5c-43cc-4bf9-9cd1-6836fd678514</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds Controld's Uncensored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Controld's Uncensored DNS over TLS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>05bb8c59-ef60-43ca-913e-ea8355eed6b5</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>uncensored.freedns.controld.com</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Controld - Unblock Censored Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Controld - Unblock Censored DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.e1f7b7dc-9c07-439b-9ea9-9897ebd033ba</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>ccd92502-25e3-43d9-86b9-2e3b822a4a23</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Controld - Unblock Censored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Controld - Unblock Censored DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>1b5673e7-07c2-43a3-bc26-80821c34a1b4</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>ea67cf0c-e517-494f-8d81-8df4e8b7cf95</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>

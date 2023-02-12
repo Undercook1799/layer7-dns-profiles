@@ -1,53 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2620:fe::10</string>
-					<string>2620:fe::fe:10</string>
-					<string>9.9.9.10</string>
-					<string>149.112.112.10</string>
-				</array>
-				<key>ServerName</key>
-				<string>dns10.quad9.net</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use Quad9 Unfiltered Unfiltere Encrypted DNS over TLS</string>
-			<key>PayloadDisplayName</key>
-			<string>Quad9 Unfiltered Unfiltere DNS over TLS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.fc7e8f5e-5e92-40f1-ac93-ff36010dca66</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>f97e9662-b029-4d01-ad27-0fc75f13bde2</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds Quad9 Unfiltered Unfiltere DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Quad9 Unfiltered Unfiltere DNS over TLS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>3575eacd-af15-46c8-ae5b-5d3c66c98abf</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>dns10.quad9.net</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Quad 9 - Unfiltered Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Quad 9 - Unfiltered DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.D15F64E2-DF58-4A83-8FB8-F2676BB6F8AB</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>6B7E73A7-4223-4BFC-BB63-FA3D6C8CE87E</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Quad 9 - Unfiltered DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Quad 9 - Unfiltered DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>F8297A30-AAD4-4BED-BBC7-BC72180277DF</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>900597DB-7778-4016-99C1-1C06550F8F91</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
 </plist>
