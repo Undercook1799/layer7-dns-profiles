@@ -39,8 +39,6 @@
 	<string>Adds RethinkDNS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
 	<key>PayloadDisplayName</key>
 	<string>RethinkDNS DNS over TLS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.undercook1799.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>

@@ -31,8 +31,6 @@
         <key>PayloadDisplayName</key>
         <string>dns0.eu DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-        <string>com.undercook1799.apple-dns</string>
-        <key>PayloadIdentifier</key>
 		<string>e50384fc-da4b-419c-a8eb-781eddce4dd1</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>

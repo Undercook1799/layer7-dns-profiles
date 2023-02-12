@@ -31,8 +31,6 @@
         <key>PayloadDisplayName</key>
         <string>@@@@Adguard@@@@ DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-        <string>com.undercook1799.apple-dns</string>
-        <key>PayloadIdentifier</key>
 		<string>@@@@RANDOM-UUID-CODE-HERE@@@@</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
