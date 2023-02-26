@@ -70,7 +70,6 @@ Table format is | DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Na
 - DoH ("DNS over HTTPS) will run your queries over port 443; DoT ("DNS over TLS") will run your queries over port 853. Note that DNS runs over port 53 by default.
 - None of these profiles are signed xoxo
 - Not going to lie, but I have minimal idea of how to operate Github
-- Profiles with a strikethrough in the name are not working properly
 
 #### Disclaimer:
 
