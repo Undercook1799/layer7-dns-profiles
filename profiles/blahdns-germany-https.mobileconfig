@@ -40,5 +40,7 @@
         <string>78baa5f5-0bcd-4c75-ae4a-3b42ca3fbf52</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>   
     </dict>
 </plist>
