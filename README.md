@@ -59,7 +59,10 @@ Check out Apple's documentation for DNS: https://developer.apple.com/documentati
 
 Table format is | DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Nah) | [HTTPS](httpslink), [TLS](tlslink) |
 
-- source link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE.mobileconfig
+- Source link refers to where you got the URL or TLS autentication link from
+
+- HTTPS link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-https.mobileconfig
+- TLS link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-tls.mobileconfig
 
 #### Notes:
 
