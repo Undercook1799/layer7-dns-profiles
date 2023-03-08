@@ -62,7 +62,7 @@ These DNS profiles are pretty much text files. To create a new profile,
     - Replace all <code>@@@@Adguard@@@@</code> with the DNS resolver's name and filter.
     - For DoH, add the HTTPS link; for DoT, add the TLS authenticater. 
     - Use [uuidgenerator.net](https://www.uuidgenerator.net/) to generate a batch of 4 random UUIDs (Version 4). 
-    - Replace all 4 <code>@@@@RANDOM-UUID-CODE-HERE@@@@</code> with the ones generated. Do. Not. Reuse.
+    - Replace all 4 <code>@@@@RANDOM-UUID-CODE-HERE@@@@</code> with the ones generated. Do. Not. Reuse UUIDs.
     - Add the profile to the <code>README.md</code>
 
 <code>README.md</code> Table setup is the following:
