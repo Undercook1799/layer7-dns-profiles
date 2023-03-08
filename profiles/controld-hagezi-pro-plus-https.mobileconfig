@@ -13,9 +13,9 @@
                     <string>https://freedns.controld.com/x-hagezi-proplus</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Controld - Hagezi's Pro Plus Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Control D - Hagezi's Pro Plus Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Controld - Hagezi's Pro Plus DNS over HTTPS</string>
+                <string>Control D - Hagezi's Pro Plus DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.33e79429-8359-4644-93ac-626ef5d01a0a</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Controld - Hagezi's Pro Plus DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Control D - Hagezi's Pro Plus DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Controld - Hagezi's Pro Plus DNS over HTTPS</string>
+        <string>Control D - Hagezi's Pro Plus DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
 		<string>651b7a04-94e9-4ea8-b568-a6731e530df0</string>
         <key>PayloadRemovalDisallowed</key>

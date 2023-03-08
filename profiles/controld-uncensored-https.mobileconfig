@@ -13,9 +13,9 @@
                     <string>https://freedns.controld.com/uncensored</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Controld - Unblock Censored Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Control D - Unblock Censored Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Controld - Unblock Censored DNS over HTTPS</string>
+                <string>Control D - Unblock Censored DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.371b665b-7182-45f9-8f54-1dbe5c65e6eb</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Controld - Unblock Censored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Control D - Unblock Censored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Controld - Unblock Censored DNS over HTTPS</string>
+        <string>Control D - Unblock Censored DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
 		<string>a9e2fa45-5b12-4252-9634-3d11f03e43cb</string>
         <key>PayloadRemovalDisallowed</key>

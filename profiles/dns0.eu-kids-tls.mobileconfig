@@ -13,9 +13,9 @@
                     <string>kids.dns0.eu</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use dns0.eu Encrypted DNS over TLS</string>
+                <string>Configures device to use dns0.eu's Kids Encrypted DNS over TLS</string>
                 <key>PayloadDisplayName</key>
-                <string>dns0.eu DNS over TLS</string>
+                <string>dns0.eu's Kids DNS over TLS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.b55d4625-97e5-4752-a100-2187eb69a80a</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds dns0.eu DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds dns0.eu's Kids DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>dns0.eu DNS over TLS</string>
+        <string>dns0.eu's Kids DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>e77e5544-9d09-4046-a537-6a22ba554d1b</string>
         <key>PayloadRemovalDisallowed</key>

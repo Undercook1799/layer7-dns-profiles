@@ -13,9 +13,9 @@
                     <string>x-hagezi-normal.freedns.controld.com</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Controld - Hagezi's Normal Encrypted DNS over TLS</string>
+                <string>Configures device to use Control D - Hagezi's Normal Encrypted DNS over TLS</string>
                 <key>PayloadDisplayName</key>
-                <string>Controld - Hagezi's Normal DNS over TLS</string>
+                <string>Control D - Hagezi's Normal DNS over TLS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.2d15a809-7a05-4f83-bf68-d8203ae58b53</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Controld - Hagezi's Normal DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Control D - Hagezi's Normal DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Controld - Hagezi's Normal DNS over TLS</string>
+        <string>Control D - Hagezi's Normal DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>06def4de-9672-4afb-9042-9a26da90643c</string>
         <key>PayloadRemovalDisallowed</key>
