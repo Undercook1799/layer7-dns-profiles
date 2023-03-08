@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>uncensored.dns.dnswarden.com</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Dnswarden - Uncensored Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Dnswarden - Uncensored DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.bd04ffce-3817-4c3f-954f-416fb260406d</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>8009b265-f6ea-4ac3-ad8b-3accd5dbf587</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Dnswarden - Uncensored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Dnswarden - Uncensored DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>8850d507-2b65-4025-ba4e-c041c575ef3b</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>ea24158d-cee2-44d5-b522-d12d5094293f</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>       
+    </dict>
+</plist>

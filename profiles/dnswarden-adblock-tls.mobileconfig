@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>adblock.dns.dnswarden.com</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Dnswarden - Adblock Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Dnswarden - Adblock DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.5c08e457-dd3c-42ce-b973-05af23d0f222</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>2fc65b23-33ad-465a-83f9-7223d88dd252</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Dnswarden - Adblock DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Dnswarden - Adblock DNS over TLS</string>
+        <key>PayloadIdentifier</key>
+		<string>389ce57b-1af9-4e5b-bd26-4f5095d86c89</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>9749fc79-6e45-4501-a9de-d7ff61089eda</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>       
+    </dict>
+</plist>

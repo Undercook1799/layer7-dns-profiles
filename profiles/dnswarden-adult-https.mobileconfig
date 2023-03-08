@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://dns.dnswarden.com/adultfilter</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Dnswarden - Adult Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Dnswarden - Adult DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.e121b699-b6d1-4e21-9d9d-41e079a21450</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>50681a7a-f167-4e31-b03e-38ec9c637800</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Dnswarden - Adult DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Dnswarden - Adult DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+		<string>9f521444-256f-4fde-9f03-ca85eceaaebd</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>155e669e-c0d5-4a15-a397-3a3fb6efd766</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>   
+    </dict>
+</plist>

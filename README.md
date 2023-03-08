@@ -27,6 +27,9 @@
 | dns0.eu                           | Nah       | https://dns0.eu/                                                                                                                                              | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-tls.mobileconfig)                                   |
 | dns0.eu - Kids                    | Yah       | https://www.dns0.eu/kids                                                                                                                                      | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-kids-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-kids-tls.mobileconfig)                         |
 | dns0.eu - Zero                    | Yah       | https://www.dns0.eu/zero                                                                                                                                      | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-zero-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dns0.eu-zero-tls.mobileconfig)                         |
+| Dnswarden - Adblock | Yah | https://dnswarden.com/ | Yah | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-adblock-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-adblock-tls.mobileconfig) |
+| Dnswarden - Adult | Yah | https://dnswarden.com/ | Yah | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-adult-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-adult-tls.mobileconfig) |
+| Dnswarden - Uncensored | Yah | https://dnswarden.com/ | Yah | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-uncensored-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/dnswarden-uncensored-tls.mobileconfig) |
 | Mullvad w/ Adblock                | Yah       | https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/                                                                                                  | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/mullvad-adblock-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/mullvad-adblock-tls.mobileconfig)                   |
 | Mullvad - Unfiltered              | Nah       | https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/                                                                                                  | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/mullvad-unfiltered-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/mullvad-unfiltered-tls.mobileconfig)             |
 | NextDNS                           | Nah       | https://my.nextdns.io/                                                                                                                                        | Yah      | [HTTPS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/nextdns-https.mobileconfig), [TLS](https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/nextdns-tls.mobileconfig)                                   |
@@ -53,16 +56,26 @@ Yeaaaaah. There may be problems with the DNS configuration or the DNS resolver i
 
 ## Contributing a new profile
 
-Profiles are basically text files. Copy the template and change the things with @@@@Adguard@@@@ (recommend by via "replace all"), IP addresses, and be sure to change its UUID, for example, by generating a new one ["online (V4)"](https://www.uuidgenerator.net/). Make sure you update the README with the new profile's info. Or you can create an "issue" in this repository with the link to the DNS provider that you would like to be added.
+These DNS profiles are pretty much text files. To create a new profile, 
+1. Copy the <code>DoH-3-template.mobileconfig</code> and/or <code>DoT-3-template.mobileconfig</code>. DoH contains DNS over HTTPS specifics, while DoT contains DNS over TLS specifics. 
+2. Once you copied the content from either or both of these profiles, you can start anywhere you like. I recommend the following:
+    - Replace all <code>@@@@Adguard@@@@</code> with the DNS resolver's name and filter.
+    - For DoH, add the HTTPS link; for DoT, add the TLS authenticater. 
+    - Use [uuidgenerator.net](https://www.uuidgenerator.net/) to generate a batch of 4 random UUIDs (Version 4). 
+    - Replace all 4 <code>@@@@RANDOM-UUID-CODE-HERE@@@@</code> with the ones generated. Do. Not. Reuse.
+    - Add the profile to the <code>README.md</code>
 
-Check out Apple's documentation for DNS: https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
+<code>README.md</code> Table setup is the following:
+<code>| DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Nah) | [HTTPS](HTTPSLink), [TLS](TLSLink) |</code>
 
-Table format is | DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Nah) | [HTTPS](httpslink), [TLS](tlslink) |
+**HTTPSLink** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-https.mobileconfig</code>
 
-- Source link refers to where you got the URL or TLS autentication link from
+**TLSLink** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-tls.mobileconfig</code>
 
-- HTTPS link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-https.mobileconfig
-- TLS link = https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-tls.mobileconfig
+Apple's documentation for DNS code is https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
+
+Or, if you just want a profile but don't want to create one, you can open up a issue request with the resolver of your choice. Include the source link please.
+
 
 #### Notes:
 
@@ -74,3 +87,4 @@ Table format is | DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Na
 #### Disclaimer:
 
 - I don't operate any of the DNS servers within these profiles. If there are any issues with the resolvers, it may not be my fault. Pretty much anything after the installation process of the profile is not on me. I am not liable if something goes wrong or for any illegal activities.
+- If you want me to remove any of these profiles, put in an issue request.

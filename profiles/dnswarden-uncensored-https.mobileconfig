@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://dns.dnswarden.com/uncensored</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Dnswarden - Uncensored Encrypted DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Dnswarden - Uncensored DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.7d557404-e0ae-43a0-a684-6234c128b795</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>9a1a0acc-d7c3-47bb-9152-7242e7b88fc6</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Dnswarden - Uncensored DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Dnswarden - Uncensored DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+		<string>a949901c-4468-4464-b51f-4c93de9b328a</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>25713357-3664-43d3-bae4-0d8592ab0596</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>   
+    </dict>
+</plist>
