@@ -68,9 +68,9 @@ These DNS profiles are pretty much text files. To create a new profile,
 <code>README.md</code> Table setup is the following:
 <code>| DNSNAME | Filtered? (Yah/Nah) | source link | Anycast? (Yah/Nah) | [HTTPS](HTTPSLink), [TLS](TLSLink) |</code>
 
-**HTTPSLink** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-https.mobileconfig</code>
+**HTTPS link** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-https.mobileconfig</code>
 
-**TLSLink** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-tls.mobileconfig</code>
+**TLS link** setup should be <code>https://github.com/Undercook1799/layer7-dns-profiles/raw/master/profiles/WHATEVER-PROFILE-NAME-HERE-tls.mobileconfig</code>
 
 Apple's documentation for DNS code is https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
 
