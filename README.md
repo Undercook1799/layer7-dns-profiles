@@ -50,9 +50,13 @@ For **macOS Big Sur & Monterey**, double click on the downloaded file and approv
 
 For **macOS Ventura**, double click on the downloaded file and approve instalation in System settings => Privacy & Security => Profiles.
 
+---
+
 ## Problems with DNS Profile?
 
-Yeaaaaah. There may be problems with the DNS configuration or the DNS resolver itself or a user error. Open up an issue request and I or others will take a look.
+> Yeaaaaah. There may be problems with the DNS configuration or the DNS resolver itself or a user error. Open up an issue request and I or others will take a look.
+
+---
 
 ## Contributing a new profile
 
@@ -74,8 +78,13 @@ These DNS profiles are pretty much text files. To create a new profile,
 
 Apple's documentation for DNS code is https://developer.apple.com/documentation/devicemanagement/dnssettings/ or [Here](https://developer.apple.com/documentation/devicemanagement/dnssettings/)
 
-Or, if you just want a profile but don't want to create one, you can open up a issue request with the resolver of your choice. Include the source link please.
+*Or, if you just want a profile but don't want to create one, you can open up a issue request with the resolver of your choice. Include the source link please (the link to where you got the HTTPS/TLS link from).*
 
+---
+#### GitHub Repository
+> https://github.com/Undercook1799/layer7-dns-profiles
+
+---
 
 #### Notes:
 
@@ -84,7 +93,11 @@ Or, if you just want a profile but don't want to create one, you can open up a i
 - None of these profiles are signed xoxo
 - Not going to lie, but I have minimal idea of how to operate Github
 
+---
+
 #### Disclaimer:
 
 - I don't operate any of the DNS servers within these profiles. If there are any issues with the resolvers, it may not be my fault. Pretty much anything after the installation process of the profile is not on me. I am not liable if something goes wrong or for any illegal activities.
 - If you want me to remove any of these profiles, put in an issue request.
+
+---
