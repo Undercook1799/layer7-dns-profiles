@@ -13,9 +13,9 @@
                     <string>https://doh-ch.blahdns.com/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Blahdns' Switzerland Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Blahdns's Switzerland Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Blahdns' Switzerland DNS over HTTPS</string>
+                <string>Blahdns's Switzerland DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.8a0ec513-8414-4cc2-8a06-89abec37539d</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Blahdns' Switzerland DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Blahdns's Switzerland DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Blahdns' Switzerland DNS over HTTPS</string>
+        <string>Blahdns's Switzerland DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
 		<string>25cd6713-ad77-4ab4-b52c-c683c20a9ca9</string>
         <key>PayloadRemovalDisallowed</key>

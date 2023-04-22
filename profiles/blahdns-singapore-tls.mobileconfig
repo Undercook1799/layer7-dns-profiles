@@ -13,9 +13,9 @@
                     <string>dot-sg.blahdns.com</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Blahdns' Singapore Encrypted DNS over TLS</string>
+                <string>Configures device to use Blahdns's Singapore Encrypted DNS over TLS</string>
                 <key>PayloadDisplayName</key>
-                <string>Blahdns' Singapore DNS over TLS</string>
+                <string>Blahdns's Singapore DNS over TLS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.1edb9e21-6423-4364-8c6c-f9b628f0aa3b</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Blahdns' Singapore DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Blahdns's Singapore DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Blahdns' Singapore DNS over TLS</string>
+        <string>Blahdns's Singapore DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>91a7b13f-5937-4146-880f-1d4442c135da</string>
         <key>PayloadRemovalDisallowed</key>

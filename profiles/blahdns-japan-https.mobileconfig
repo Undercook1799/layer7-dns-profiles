@@ -13,9 +13,9 @@
                     <string>https://doh-jp.blahdns.com/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Blahdns' Japan Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Blahdns's Japan Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Blahdns' Japan DNS over HTTPS</string>
+                <string>Blahdns's Japan DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.d6749d71-73a4-480d-8064-14a38ccd2502</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Blahdns' Japan DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Blahdns's Japan DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Blahdns' Japan DNS over HTTPS</string>
+        <string>Blahdns's Japan DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
 		<string>b1680280-6731-49a1-92b2-ac035968228b</string>
         <key>PayloadRemovalDisallowed</key>

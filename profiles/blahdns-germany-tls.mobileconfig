@@ -13,9 +13,9 @@
                     <string>dot-de.blahdns.com</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Blahdns' Germany Encrypted DNS over TLS</string>
+                <string>Configures device to use Blahdns's Germany Encrypted DNS over TLS</string>
                 <key>PayloadDisplayName</key>
-                <string>Blahdns' Germany DNS over TLS</string>
+                <string>Blahdns's Germany DNS over TLS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.81ea63ea-984a-4702-aca1-69e2cf651351</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Blahdns' Germany DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Blahdns's Germany DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Blahdns' Germany DNS over TLS</string>
+        <string>Blahdns's Germany DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>ff016ebe-b92d-4c0f-95b1-cb5baf5bf8b1</string>
         <key>PayloadRemovalDisallowed</key>

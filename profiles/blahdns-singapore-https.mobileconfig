@@ -13,9 +13,9 @@
                     <string>https://doh-sg.blahdns.com/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>Configures device to use Blahdns' Singapore Encrypted DNS over HTTPS</string>
+                <string>Configures device to use Blahdns's Singapore Encrypted DNS over HTTPS</string>
                 <key>PayloadDisplayName</key>
-                <string>Blahdns' Singapore DNS over HTTPS</string>
+                <string>Blahdns's Singapore DNS over HTTPS</string>
                 <key>PayloadIdentifier</key>
                 <string>com.apple.dnsSettings.managed.2faa0e1a-b364-4db1-94d2-c5cec108211c</string>
                 <key>PayloadType</key>
@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Blahdns' Singapore DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Blahdns's Singapore DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
         <key>PayloadDisplayName</key>
-        <string>Blahdns' Singapore DNS over HTTPS</string>
+        <string>Blahdns's Singapore DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
 		<string>d32981f1-22e6-4f74-be04-d21d5b9e5f06</string>
         <key>PayloadRemovalDisallowed</key>
