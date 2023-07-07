@@ -27,7 +27,7 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds @@@@Adguard@@@@ DNS to >= MacOS Big Sur and >= iOS 14 systems</string>
+        <string>Adds @@@@Adguard@@@@ DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
         <string>DoT via @@@@Adguard@@@@</string>
         <key>PayloadIdentifier</key>

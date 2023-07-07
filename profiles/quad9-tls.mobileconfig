@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Quad 9 - Regular DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Quad9 - Regular DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
-        <string>Quad 9 - Regular DNS over TLS</string>
+        <string>Quad9 - Regular DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>4CDA3809-EC90-4C71-B8E2-413E22B680BC</string>
         <key>PayloadRemovalDisallowed</key>

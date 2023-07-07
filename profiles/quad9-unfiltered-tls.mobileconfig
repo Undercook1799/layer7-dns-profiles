@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Quad 9 - Unfiltered DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Quad9 - Unfiltered DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
-        <string>Quad 9 - Unfiltered DNS over TLS</string>
+        <string>Quad9 - Unfiltered DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>F8297A30-AAD4-4BED-BBC7-BC72180277DF</string>
         <key>PayloadRemovalDisallowed</key>

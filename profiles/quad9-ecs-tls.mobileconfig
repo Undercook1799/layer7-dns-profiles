@@ -27,9 +27,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Quad 9 - Secured w/ ECS DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Quad9 - ECS DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
-        <string>Quad 9 - Secured w/ ECS DNS over TLS</string>
+        <string>Quad9 - Secured w/ ECS DNS over TLS</string>
         <key>PayloadIdentifier</key>
 		<string>5b246fd3-3a17-4391-8b2a-c1abb49d35ab</string>
         <key>PayloadRemovalDisallowed</key>

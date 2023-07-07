@@ -27,7 +27,7 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Njalla DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Njalla DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
         <string>Njalla DNS over TLS</string>
         <key>PayloadIdentifier</key>

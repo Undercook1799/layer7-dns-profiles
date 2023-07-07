@@ -27,7 +27,7 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Cisco's OpenDNS - Sandbox DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds Cisco's OpenDNS - Sandbox DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
         <string>Cisco's OpenDNS - Sandbox DNS over HTTPS</string>
         <key>PayloadIdentifier</key>

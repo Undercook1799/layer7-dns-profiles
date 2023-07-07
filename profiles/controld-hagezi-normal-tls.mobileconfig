@@ -27,7 +27,7 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Adds Control D - Hagezi's Normal DNS to MacOS Big Sur and iOS 14 based or newer systems</string>
+        <string>Adds ControlD - Hagezi Normal DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
         <key>PayloadDisplayName</key>
         <string>Control D - Hagezi's Normal DNS over TLS</string>
         <key>PayloadIdentifier</key>
