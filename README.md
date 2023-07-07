@@ -46,9 +46,9 @@ For **iOS**, seek a DNS provider from the list and click either HTTPS or TLS usi
 
 To remove DNS profiles from your device, go to Settings => click General => VPN, DNS, and Device Management => click on the profile that you've like to delete => click "Remove Profile."
 
-For **macOS Big Sur &amp; Monterey**, double click on the downloaded file and approve instalation in System Preferences => Security & Privacy => Profiles
+For **macOS Big Sur &amp; Monterey**, double click on the downloaded file and approve installation in System Preferences => Security & Privacy => Profiles
 
-For **macOS Ventura &amp; newer**, double click on the downloaded file and approve instalation in System settings => Privacy & Security => Profiles.
+For **macOS Ventura &amp; newer**, double click on the downloaded file and approve installation in System settings => Privacy & Security => Profiles.
 
 ---
 
