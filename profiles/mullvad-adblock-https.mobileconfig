@@ -10,7 +10,7 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://adblock.doh.mullvad.net/dns-query</string>
+                    <string>https://adblock.dns.mullvad.net/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
                 <string>Configures device to use Mullvad - Adblock Encrypted DNS over HTTPS</string>

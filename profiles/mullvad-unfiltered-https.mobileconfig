@@ -10,7 +10,7 @@
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://doh.mullvad.net/dns-query</string>
+                    <string>https://dns.mullvad.net/dns-query</string>
                 </dict>
                 <key>PayloadDescription</key>
                 <string>Configures device to use Mullvad - Unfiltered Encrypted DNS over HTTPS</string>

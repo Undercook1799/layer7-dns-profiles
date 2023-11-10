@@ -10,7 +10,7 @@
                     <key>DNSProtocol</key>
                     <string>TLS</string>
                     <key>ServerName</key>
-                    <string>doh.mullvad.net</string>
+                    <string>dns.mullvad.net</string>
                 </dict>
                 <key>PayloadDescription</key>
                 <string>Configures device to use Mullvad - Unfiltered Encrypted DNS over TLS</string>

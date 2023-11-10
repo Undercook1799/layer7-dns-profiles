@@ -10,7 +10,7 @@
                     <key>DNSProtocol</key>
                     <string>TLS</string>
                     <key>ServerName</key>
-                    <string>adblock.doh.mullvad.net</string>
+                    <string>adblock.dns.mullvad.net</string>
                 </dict>
                 <key>PayloadDescription</key>
                 <string>Configures device to use Mullvad - Adblock Encrypted DNS over TLS</string>
