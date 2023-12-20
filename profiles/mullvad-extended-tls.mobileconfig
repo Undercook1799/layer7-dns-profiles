@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>extended.dns.mullvad.net</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Mullvad - Blocks Ads, Trackers, Malware, and Social Media content Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>DoT via Mullvad - Blocks Ads, Trackers, Malware, and Social Media content</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.0551daff-268b-409d-a878-f88ce62bea29</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>7c24fd82-56a7-4f12-a834-cb0aa5086f5c</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Mullvad - Blocks Ads, Trackers, Malware, and Social Media content DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
+        <key>PayloadDisplayName</key>
+        <string>DoT via Mullvad - Blocks Ads, Trackers, Malware, and Social Media content</string>
+        <key>PayloadIdentifier</key>
+		<string>87b289c9-b109-46e2-b04e-8ecd51830626</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>028eba92-769e-4690-bad2-d59166820896</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>       
+    </dict>
+</plist>

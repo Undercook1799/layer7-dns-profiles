@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>base.dns.mullvad.net</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Mullvad - Blocks Ads, Trackers, and Malware content Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>DoT via Mullvad - Blocks Ads, Trackers, and Malware content</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.c4e6ce3b-c63b-4923-b7be-604455c98049</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>49c51746-d307-4a80-8ca8-e1196cc61ebb</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Mullvad - Blocks Ads, Trackers, and Malware content DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
+        <key>PayloadDisplayName</key>
+        <string>DoT via Mullvad - Blocks Ads, Trackers, and Malware content</string>
+        <key>PayloadIdentifier</key>
+		<string>d3eaa918-d584-4001-a61d-acaf804f14df</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>812fce36-95da-4c90-a462-2a5f09f7f52b</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>       
+    </dict>
+</plist>

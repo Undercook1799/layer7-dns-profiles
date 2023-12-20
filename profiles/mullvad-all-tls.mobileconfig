@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>all.dns.mullvad.net</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Mullvad - Blocks Ads, Trackers, Malware, Adult, Gambling, and Social Media content Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>DoT via Mullvad - Blocks Ads, Trackers, Malware, Adult, Gambling, and Social Media content</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.c380712d-077e-40dc-8cf5-26c043d164ba</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>cba3fb64-0e8e-4888-a55a-0011a334bd91</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds Mullvad - Blocks Ads, Trackers, Malware, Adult, Gambling, and Social Media content DNS to >= MacOS Big Sur and/or >= iOS 14 systems</string>
+        <key>PayloadDisplayName</key>
+        <string>DoT via Mullvad - Blocks Ads, Trackers, Malware, Adult, Gambling, and Social Media content</string>
+        <key>PayloadIdentifier</key>
+		<string>c780d0dd-5d8e-4abc-9278-ede5ddae83ab</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+		<string>8f389904-3438-459b-959b-7f0cb9df468e</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>       
+    </dict>
+</plist>
